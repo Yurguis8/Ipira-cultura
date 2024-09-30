@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);;
+}
+header{
+    text-align: center;
+    background-color: black;
+    font-family: var(--fonte2);
+    color: rgb(255, 255, 255);
+    font-size: 5vw;
+    padding: 30px;
+}
+.imagens{
+    margin: auto;
+    margin-top: 10vw;
+    margin-bottom: 0px;
+    width: 50vw;
+    height: 50vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 0px 0px;
+    border-color: rgb(21, 0, 44);
+}
+.text{
+    margin: auto;
+    text-align: center;
+    width: 50vw;
+    font-size: 2.5vw;
+    font-family: var(--fonte1);
+    background-color: rgb(1, 10, 34);
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    z-index: 0;
+}
+.text >strong>p{
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+.img{
+    background-color: rgb(1, 0, 14);
+    padding: 10px;
+}
+
+
+
+#yurguis{
+    background-image: url(img/WhatsApp\ Image\ 2024-03-25\ at\ 18.17.36.jpeg) ;
+}
